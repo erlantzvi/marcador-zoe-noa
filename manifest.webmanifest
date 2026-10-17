@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Marcador de Zoe y Noa",
+  "short_name": "Zoe y Noa",
+  "description": "Marcador de puntos divertido para Zoe y Noa",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fffafd",
+  "theme_color": "#fff4fc",
+  "icons": [
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

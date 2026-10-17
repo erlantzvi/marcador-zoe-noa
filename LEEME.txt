@@ -1,0 +1,24 @@
+MARCADOR DE ZOE Y NOA — INSTALACIÓN
+
+CONTENIDO
+- index.html: la aplicación.
+- manifest.webmanifest: nombre, iconos y modo de instalación.
+- sw.js: caché para poder usar la app sin conexión tras la primera carga.
+- icons/: iconos para la pantalla de inicio.
+
+IMPORTANTE
+No se puede instalar como PWA directamente abriendo index.html desde Archivos.
+Los archivos deben estar alojados en una web HTTPS.
+
+FORMA GRATUITA CON GITHUB PAGES
+1. Inicia sesión o crea una cuenta en https://github.com/
+2. Crea un repositorio nuevo, por ejemplo marcador-zoe-noa.
+3. Sube TODOS los archivos y carpetas de este paquete; index.html debe quedar en la raíz del repositorio.
+4. En el repositorio, entra en Settings > Pages.
+5. En Build and deployment, selecciona Deploy from a branch; elige la rama main y la carpeta /(root), y guarda.
+6. Espera a que GitHub Pages publique la web. La dirección será similar a https://TU-USUARIO.github.io/marcador-zoe-noa/ (usa la dirección exacta que GitHub muestre).
+7. Abre esa dirección en Chrome desde tu Xiaomi. Espera a que cargue completamente una vez.
+8. Pulsa ⋮ > Instalar aplicación o Añadir a pantalla de inicio.
+9. Una vez abierta y cargada, la aplicación puede guardar sus archivos para funcionar sin conexión.
+
+Las puntuaciones se guardan en el almacenamiento del navegador de ese dispositivo. No se sincronizan con otros móviles.
